@@ -5,7 +5,7 @@ import time
 # Create a metric to track time spent and requests made.
 REQUEST_TIME = Summary('request_processing_seconds', 'Time spent processing request')
 UPDATE_COUNT = Counter('update_count', 'Number of updates')
-Gauge_COUNT = Gauge("Asmaa_Info", "Some test")
+Gauge_COUNT = Gauge("instant_value", "Some test")
 
 
 # Decorate function with metric.
